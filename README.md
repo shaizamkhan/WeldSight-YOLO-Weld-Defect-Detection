@@ -35,23 +35,23 @@ The following charts summarize the final performance of the best-performing fold
 
 This shows the raw classification performance, highlighting where the model confuses different defect types or misclassifies defects as background noise.
 
-![Confusion_Matrix](assets/Confusion Matrix Best Model.jpg)
+![Confusion_Matrix](assets/Confusion_Matrix_Best_Model.jpg)
 
 ### 2. Precision-Recall Curve (BoxPR\_curve)
 
 This curve illustrates the model's performance stability across varying confidence thresholds.
 
-![PR_Curve](assets/PR-Curve Best Model.jpg)
+![PR_Curve](assets/PR_Curve_Best_Model.jpg)
 
 ### 3. F1 Score Curve (BoxF1\_curve)
 
 The curve that determined the optimal confidence threshold ($\sim 0.25$), confirming the network's high geometric instability and **Confidence Crisis**.
 
-![F1-Confidence_Curve](assets/F1 Confidence Curve Best Model.jpg)
+![F1-Confidence_Curve](assets/F1_Confidence_Curve_Best_Model.jpg)
 
 ### 4. Sample Detections
 
-![Random_Test_Image_with_Prediction_Boxes_and_annotations](assets/Random Test Image with Predicted annotations.jpg)
+![Random_Test_Image_with_Prediction_Boxes_and_annotations](assets/Random_Test_Image_with_Predicted_annotations.jpg)
 
 ---
 
