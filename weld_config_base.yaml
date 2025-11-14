@@ -1,0 +1,13 @@
+# YOLOv11 Configuration for WeldSight Project
+
+# NOTE: This is a BASE configuration. The 'path' will be dynamically updated 
+# by the training script for each fold (e.g., path: ../data/folds/fold_0)
+
+# Number of classes (nc) and class names (names) based on the LoHi-WELD dataset
+nc: 4
+names: ['Pores', 'Deposits', 'Discontinuities', 'Stains']
+
+# Placeholder paths (will be set relative to the final fold directory)
+path: ../data/folds/fold_0 
+train: images/train 
+val: images/val

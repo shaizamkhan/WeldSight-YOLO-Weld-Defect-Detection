@@ -1,0 +1,15 @@
+# Core dependencies for YOLO training and data handling
+
+# Ultralytics framework (YOLOv11s requires a recent version)
+ultralytics==8.2.0
+
+# Data manipulation and stratification
+pandas
+numpy
+scikit-learn
+
+# Utilities for downloading and file operations
+requests
+tqdm
+pyyaml
+zipfile
